@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import CreateAccount from "@/components/CreateAccount.vue";
+
 defineProps<{
   msg: string;
 }>();
@@ -13,6 +15,7 @@ defineProps<{
       <a target="_blank" href="https://vuejs.org/">Vue 3</a>. What's next?
     </h3>
   </div>
+  <CreateAccount></CreateAccount>
 </template>
 
 <style scoped>
